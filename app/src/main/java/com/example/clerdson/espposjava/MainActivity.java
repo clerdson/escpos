@@ -160,8 +160,9 @@ public class MainActivity extends Activity {
 
 
             mmOutputStream.write(PrinterComands.INIT);
-            mmOutputStream.write(PrinterComands.PRINT_CENTER);
+            mmOutputStream.write(PrinterComands.Margin_left);
             mmOutputStream.write(PrinterComands.Select_font_b);
+
             mmOutputStream.write(accentsgone.getBytes());
 
             // tell the user data were sent

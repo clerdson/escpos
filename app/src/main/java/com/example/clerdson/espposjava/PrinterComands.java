@@ -31,6 +31,8 @@ public class PrinterComands {
     public static byte[] SELECT_PRINT_SHEET = {0x1B, 0x63, 0x30, 0x02};
     public static byte[] FEED_PAPER_AND_CUT = {0x1D, 0x56, 66, 0x00};
     public static byte[] SELECT_CYRILLIC_CHARACTER_CODE_TABLE = {0x1B, 0x74, 0x11};
+    public static byte[] Margin_left = {29,76,32,0};
+    public static byte[] Barcode = {29,40,107,3,0,52,81,48};
 
 
 }
